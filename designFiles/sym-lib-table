@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name piHeader)(type Legacy)(uri ${KIPRJMOD}/piHeader.lib)(options "")(descr ""))
+  (lib (name featherHeader)(type Legacy)(uri ${KIPRJMOD}/featherHeader.lib)(options "")(descr ""))
+)
