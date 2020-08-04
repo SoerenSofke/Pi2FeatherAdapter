@@ -582,4 +582,92 @@ NoConn ~ 7000 3500
 NoConn ~ 7000 3300
 NoConn ~ 5200 3800
 NoConn ~ 5200 3700
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F2AB8AF
+P 2600 3900
+F 0 "H1" V 2650 4100 50  0000 C CNN
+F 1 "MountingHole_Pad" V 2550 4400 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2600 3900 50  0001 C CNN
+F 3 "~" H 2600 3900 50  0001 C CNN
+	1    2600 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F2AE8DF
+P 2600 4100
+F 0 "H2" V 2650 4300 50  0000 C CNN
+F 1 "MountingHole_Pad" V 2550 4600 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2600 4100 50  0001 C CNN
+F 3 "~" H 2600 4100 50  0001 C CNN
+	1    2600 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F2AEAA5
+P 2600 4300
+F 0 "H3" V 2650 4500 50  0000 C CNN
+F 1 "MountingHole_Pad" V 2550 4800 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2600 4300 50  0001 C CNN
+F 3 "~" H 2600 4300 50  0001 C CNN
+	1    2600 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F2AEC92
+P 2600 4500
+F 0 "H4" V 2650 4700 50  0000 C CNN
+F 1 "MountingHole_Pad" V 2550 5000 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2600 4500 50  0001 C CNN
+F 3 "~" H 2600 4500 50  0001 C CNN
+	1    2600 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5F2AF09D
+P 2700 3900
+F 0 "#PWR017" H 2700 3650 50  0001 C CNN
+F 1 "GND" V 2705 3772 50  0000 R CNN
+F 2 "" H 2700 3900 50  0001 C CNN
+F 3 "" H 2700 3900 50  0001 C CNN
+	1    2700 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5F2AF9AE
+P 2700 4100
+F 0 "#PWR018" H 2700 3850 50  0001 C CNN
+F 1 "GND" V 2705 3972 50  0000 R CNN
+F 2 "" H 2700 4100 50  0001 C CNN
+F 3 "" H 2700 4100 50  0001 C CNN
+	1    2700 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5F2AFCF0
+P 2700 4300
+F 0 "#PWR019" H 2700 4050 50  0001 C CNN
+F 1 "GND" V 2705 4172 50  0000 R CNN
+F 2 "" H 2700 4300 50  0001 C CNN
+F 3 "" H 2700 4300 50  0001 C CNN
+	1    2700 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5F2AFEDB
+P 2700 4500
+F 0 "#PWR020" H 2700 4250 50  0001 C CNN
+F 1 "GND" V 2705 4372 50  0000 R CNN
+F 2 "" H 2700 4500 50  0001 C CNN
+F 3 "" H 2700 4500 50  0001 C CNN
+	1    2700 4500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
