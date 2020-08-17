@@ -259,17 +259,9 @@ SCK
 Wire Wire Line
 	1150 1900 1550 1900
 Wire Wire Line
-	7000 1500 7250 1500
-Wire Wire Line
 	7000 1300 7250 1300
 Wire Wire Line
-	7000 2700 7250 2700
-Wire Wire Line
 	7000 2400 7250 2400
-Wire Wire Line
-	7000 2300 7250 2300
-Wire Wire Line
-	7000 2200 7250 2200
 $Comp
 L featherHeader:featherHeader_16pin U3
 U 1 1 5F25B101
@@ -285,14 +277,12 @@ Text GLabel 3250 1100 2    50   Input ~ 0
 TX
 Text GLabel 3250 1200 2    50   Input ~ 0
 RX
-Text GLabel 7250 2500 2    50   Input ~ 0
+Text GLabel 7250 2600 2    50   Input ~ 0
 TX
 Wire Wire Line
 	7000 2500 7250 2500
-Text GLabel 7250 2600 2    50   Input ~ 0
+Text GLabel 7250 2500 2    50   Input ~ 0
 RX
-Wire Wire Line
-	7000 2600 7250 2600
 Wire Wire Line
 	3250 1100 2950 1100
 Wire Wire Line
@@ -436,17 +426,6 @@ F 3 "" H 5400 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
-U 1 1 5F2A1CB3
-P 7250 4800
-F 0 "#PWR0101" H 7250 4550 50  0001 C CNN
-F 1 "GND" V 7255 4672 50  0000 R CNN
-F 2 "" H 7250 4800 50  0001 C CNN
-F 3 "" H 7250 4800 50  0001 C CNN
-	1    7250 4800
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0102
 U 1 1 5F2A1CB9
 P 7250 3600
@@ -495,18 +474,6 @@ Text GLabel 7250 4400 2    50   Input ~ 0
 MOSI
 Text GLabel 7250 4300 2    50   Input ~ 0
 SCK
-Wire Wire Line
-	7000 3600 7250 3600
-Wire Wire Line
-	7000 3400 7250 3400
-Wire Wire Line
-	7000 4800 7250 4800
-Wire Wire Line
-	7000 4500 7250 4500
-Wire Wire Line
-	7000 4400 7250 4400
-Wire Wire Line
-	7000 4300 7250 4300
 $Comp
 L featherHeader:featherHeader_16pin U5
 U 1 1 5F2A1CD9
@@ -519,21 +486,11 @@ F 3 "" H 7000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7250 4600 2    50   Input ~ 0
-TX
-Wire Wire Line
-	7000 4600 7250 4600
-Text GLabel 7250 4700 2    50   Input ~ 0
 RX
-Wire Wire Line
-	7000 4700 7250 4700
 Text GLabel 7250 3700 2    50   Input ~ 0
 PWM0
 Text GLabel 7250 3800 2    50   Input ~ 0
 PWM1
-Wire Wire Line
-	7250 3700 7000 3700
-Wire Wire Line
-	7250 3800 7000 3800
 Text GLabel 4950 4000 0    50   Input ~ 0
 PCM_DOUT
 Text GLabel 4950 4100 0    50   Input ~ 0
@@ -560,24 +517,16 @@ Wire Wire Line
 	4950 4500 5200 4500
 Text GLabel 7250 3900 2    50   Input ~ 0
 CLK0
-Wire Wire Line
-	7250 3900 7000 3900
 Text GLabel 7250 4000 2    50   Input ~ 0
 CLK1
-Wire Wire Line
-	7250 4000 7000 4000
 Text GLabel 7250 4100 2    50   Input ~ 0
 CLK2
-Wire Wire Line
-	7250 4100 7000 4100
 Text GLabel 4950 4400 0    50   Input ~ 0
 ID_SD
 Wire Wire Line
 	4950 4400 5200 4400
 Text GLabel 7250 4200 2    50   Input ~ 0
 ID_SC
-Wire Wire Line
-	7250 4200 7000 4200
 NoConn ~ 7000 3500
 NoConn ~ 7000 3300
 NoConn ~ 5200 3800
@@ -670,4 +619,57 @@ F 3 "" H 2700 4500 50  0001 C CNN
 	1    2700 4500
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 2950 1500
+NoConn ~ 2950 1600
+Wire Wire Line
+	7250 1500 7000 1500
+Wire Wire Line
+	7000 2600 7250 2600
+Wire Wire Line
+	7000 2700 7250 2700
+Text GLabel 7250 4700 2    50   Input ~ 0
+TX
+$Comp
+L power:GND #PWR0101
+U 1 1 5F2A1CB3
+P 7250 4800
+F 0 "#PWR0101" H 7250 4550 50  0001 C CNN
+F 1 "GND" V 7255 4672 50  0000 R CNN
+F 2 "" H 7250 4800 50  0001 C CNN
+F 3 "" H 7250 4800 50  0001 C CNN
+	1    7250 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 4800 7000 4800
+Wire Wire Line
+	7250 4700 7000 4700
+Wire Wire Line
+	7000 4600 7250 4600
+Wire Wire Line
+	7000 4500 7250 4500
+Wire Wire Line
+	7000 4400 7250 4400
+Wire Wire Line
+	7000 4300 7250 4300
+Wire Wire Line
+	7250 4200 7000 4200
+Wire Wire Line
+	7250 4100 7000 4100
+Wire Wire Line
+	7250 4000 7000 4000
+Wire Wire Line
+	7250 3900 7000 3900
+Wire Wire Line
+	7250 3800 7000 3800
+Wire Wire Line
+	7250 3700 7000 3700
+Wire Wire Line
+	7000 3600 7250 3600
+Wire Wire Line
+	7000 3400 7250 3400
+Wire Wire Line
+	7000 2300 7250 2300
+Wire Wire Line
+	7000 2200 7250 2200
 $EndSCHEMATC
