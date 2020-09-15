@@ -61,9 +61,3 @@ To run the DisplayClock Python software in backgroud, start it using the followi
 ----
 nohup python3 displayClock.py &
 ----
-
-### DisplayClock Python Listing
-[source,python]
-----
-include::displayClock.py[]
-----
