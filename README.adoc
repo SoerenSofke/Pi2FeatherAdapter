@@ -1,4 +1,7 @@
-FeatherWing Adapter for Raspberry Pi
-------------------------------------
+= FeatherWing Adapter for Raspberry Pi
 
+### Rendering of Pi-to-Feather Adapter
 image::assets/rendering.jpg[]
+
+### Schematic
+image::assets/schematic.svg[]
